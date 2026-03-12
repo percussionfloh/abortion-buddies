@@ -6,7 +6,7 @@ export default defineAppConfig({
             // you can reference shades with utilities like `bg-primary-500` etc.
             primary: 'purple',
             secondary: 'orange',
-            neutral: 'gray'
+            neutral: 'gray', 
         }
     }
 });

@@ -1,9 +1,11 @@
 <script setup>
 const localePath = useLocalePath();
+
+
 </script>
 
 <template>
-    <header class="h-19 w-auto bg-primary-500 text-white">
+    <header class="h-19 w-auto bg-primary-700 text-white">
         <div class="flex justify-between items-center py-2 px-4 gap-4">
             <div class="grow flex items-center gap-4">
                 <div class="font-extrabold text-2xl md:text-6xl">

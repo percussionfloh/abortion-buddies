@@ -1,6 +1,30 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-@theme {
-  --font-sans: 'Public Sans', sans-serif;
+@theme static {
+  /* Override default green color -> mapped to purple palette */
+  --color-green-50: #F5F3FF;
+  --color-green-100: #EDE9FE;
+  --color-green-200: #DDD6FE;
+  --color-green-300: #C4B5FD;
+  --color-green-400: #A78BFA;
+  --color-green-500: #8B5CF6;
+  --color-green-600: #7C3AED;
+  --color-green-700: #6D28D9;
+  --color-green-800: #5B21B6;
+  --color-green-900: #4C1D95;
+  --color-green-950: #2E1065;
+
+  /* Define new custom color (unchanged) */
+  --color-brand-50: #oklch(97.7% 0.017 320.058);
+  --color-brand-100: #oklch(95.2% 0.037 318.852);
+  --color-brand-200: #oklch(90.3% 0.076 319.62);
+  --color-brand-300: #oklch(83.3% 0.145 321.434);
+  --color-brand-400: #oklch(71.4% 0.203 305.504);
+  --color-brand-500: #oklch(62.7% 0.265 303.9);
+  --color-brand-600: #oklch(55.8% 0.288 302.321);
+  --color-brand-700: #oklch(49.6% 0.265 301.924);
+  --color-brand-800: #oklch(43.8% 0.218 303.724);
+  --color-brand-900: #oklch(38.1% 0.176 304.987);
+  --color-brand-950: #oklch(29.1% 0.149 302.717);
 }
