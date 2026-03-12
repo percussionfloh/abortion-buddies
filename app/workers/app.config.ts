@@ -1,20 +1,12 @@
+
 export default defineAppConfig({
-  ui: {
-    colors: {
-      primary: 'purple',
-      secondary: 'fuchsia',
-      neutral: 'zinc'
-    }
-  },
-    prose: {
-      accordion: {
-        slots: {
-          root: 'my-5',
-          trigger: 'text-base'
+    ui: {
+        colors: {
+            // the theme's primary colour – using Tailwind's purple palette
+            // you can reference shades with utilities like `bg-primary-500` etc.
+            primary: 'purple',
+            secondary: 'orange',
+            neutral: 'gray'
         }
-      },
-      accordionItem: {
-        base: 'pb-4 text-muted *:first:mt-0 *:last:mb-0 *:my-1.5'
-      }
     }
-})
+});

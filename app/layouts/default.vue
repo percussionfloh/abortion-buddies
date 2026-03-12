@@ -27,7 +27,7 @@ html {
 }
 
 .bg-pattern {
-    background-color: oklch(44.3% 0.20475 323.773);
+    background-color: oklch(40.525% 0.2257 290.387);
     background-image: url("/bg-pattern.svg");
 }
 </style>
