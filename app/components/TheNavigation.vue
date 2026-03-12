@@ -3,7 +3,7 @@ const { t } = useI18n();
 const localePath = useLocalePath();
 
 const items = [
-    {
+    [{
         label: t('home'),
         to: localePath({name: 'index'}),
     },
@@ -12,9 +12,23 @@ const items = [
         to: localePath({name: 'about'}),
     },
     {
+        label: t('history'),
+        to: localePath({name: 'history'}),
+    },
+    {
+        label: t('support'),
+        to: localePath({name: 'support'}),
+    }],
+
+    [{
+        label: t('contact us'),
+        to: localePath({name: 'contactUs'}),
+    },
+    {
         label: t('faq'),
         to: localePath({name: 'faq'}),
     },
+    ]
 ];
 </script>
 
